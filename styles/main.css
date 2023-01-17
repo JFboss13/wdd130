@@ -1,0 +1,13 @@
+h1, a {
+    color: steelblue;
+}
+.empasis {
+    color: red;
+}
+#active {
+    background-color: steelblue;
+    color: white;
+}
+.room {
+    border: 1px solid orange;
+}
