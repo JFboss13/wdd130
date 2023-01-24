@@ -21,3 +21,19 @@ img {
     margin: 0 auto;
     display: block
 }
+
+p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: green;
+}
