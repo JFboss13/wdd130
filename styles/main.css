@@ -2,6 +2,10 @@
     border: 1px solid red;
 }
 
+body {
+    text-align: center;
+}
+
 h1, a {
     color: steelblue;
 }
