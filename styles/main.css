@@ -1,10 +1,16 @@
 h1, a {
     color: steelblue;
 }
+
 #active {
     background-color: steelblue;
     color: white;
 }
+
 .room {
     background-color: lightgray;
+}
+
+img {
+    width: 900px;
 }
