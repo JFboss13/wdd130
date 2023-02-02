@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+#logo_link {
+    padding-top: 5px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +10,12 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
+}
+nav {
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 1.2em;
 }
 #hero-img {
     max-width: 1600px;
@@ -19,12 +30,17 @@ nav a {
 }
 main section {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #023C40;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #9EB3C2;
@@ -32,9 +48,15 @@ header {
 nav a:hover {
     background-color: #7F804D;
 }
+.home-title {
+    margin-top: 10px;
+}
 .book, .join {
     background-color: #9EB3C2;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #7F804D;
@@ -44,18 +66,31 @@ nav a:hover {
 }
 .msg {
     background-color: #9EB3C2;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px;
 }
 footer {
     background-color: #9EB3C2;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 #hero, .home-grid {
     color: black;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px, solid, black;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer a {
     text-decoration: none;
@@ -65,4 +100,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
