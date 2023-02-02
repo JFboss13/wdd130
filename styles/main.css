@@ -1,3 +1,6 @@
+* {
+    padding: 10px;
+}
 body {
     text-align: center;
 }
@@ -28,7 +31,6 @@ p{
     margin: 0 auto;
     font-size: 1.1em;
     line-height: 2em;
-    padding: 10px;
 }
 
 nav a{
