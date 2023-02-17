@@ -9,6 +9,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+main, .home-grid {
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
 nav a {
     text-align: center;
     text-decoration: none;
@@ -103,9 +106,6 @@ footer {
 }
 #hero, .home-grid {
     color: black;
-}
-main, .home-grid {
-    grid: repeat(10, 1fr);
 }
 .rivers-card {
     margin: 200px 0;
