@@ -2,6 +2,8 @@
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 #content {
     max-width: 1600px;
