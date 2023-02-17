@@ -84,10 +84,14 @@ nav a:hover {
 }
 #background {
     background-color: #9EB3C2;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .msg {
     background-color: #9EB3C2;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .msg p {
     padding-bottom: 15px;
@@ -100,11 +104,33 @@ footer {
 #hero, .home-grid {
     color: black;
 }
-.rivers-card, .camping-card, .rapids-card {
+main, .home-grid {
+    grid: repeat(10, 1fr);
+}
+.rivers-card {
     margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    margin: 200px 0;
+    grid-column: 8-10;
+    grid-row: 2/3;
 }
 .card-img {
     border: 10px solid black;
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
 }
 .logo {
     width: 80px;
