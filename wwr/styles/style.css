@@ -53,7 +53,8 @@ main section {
     box-sizing: border-box;
 }
 main, .home-grid {
-    grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 #background {
     height: 725px;
@@ -123,7 +124,7 @@ footer {
 }
 .rapids-card {
     margin: 200px 0;
-    grid-column: 8-10;
+    grid-column: 8/10;
     grid-row: 2/3;
 }
 .card-img {
