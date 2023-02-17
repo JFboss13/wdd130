@@ -9,9 +9,6 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-main, .home-grid {
-    grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
-}
 nav a {
     text-align: center;
     text-decoration: none;
@@ -54,6 +51,9 @@ main section {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+}
+main, .home-grid {
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
 }
 #background {
     height: 725px;
