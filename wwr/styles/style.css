@@ -13,6 +13,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    color: black;
 }
 nav {
     text-align: center;
@@ -153,6 +154,7 @@ footer {
 }
 footer a {
     text-decoration: none;
+    color: black;
 }
 footer p {
     font-size: 1.2em;
