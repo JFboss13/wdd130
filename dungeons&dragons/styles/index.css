@@ -25,7 +25,9 @@ nav a:hover {
     background-color: cornflowerblue;
 }
 
-
+main {
+    background-color: #521F00;
+}
 
 
 footer {
