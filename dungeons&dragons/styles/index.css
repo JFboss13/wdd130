@@ -8,11 +8,13 @@ header {
 }
 .logo {
     width: 95px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 nav a {
     text-align: center;
     text-decoration: none;
-    padding: 35px;
+    padding: 40px;
     color: black;
 }
 nav {
