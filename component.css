@@ -5,6 +5,7 @@
     height: 200px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-top: 50px;
   }
   
   /* This container is needed to position the front and back side */
@@ -43,4 +44,33 @@
     color: white;
     transform: rotateY(180deg);
     font-size: small;
-  }
+}
+
+
+nav a{
+    text-decoration: none;
+}
+nav a:hover {
+    color: green;
+}
+
+
+
+footer {
+    background-color: #7D7461;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
