@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+h2 {
+    font-style: "IM fell French Canon SC";
+}
+p {
+    font-style: Times, Georgia, serif;
+}
+
+
+
 header {
     background-color: #7D7461;
     display: grid;
